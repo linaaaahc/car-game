@@ -1,15 +1,16 @@
 command = ""
-
-while command.upper() != "QUIT":
-    command = input("> ")
-    if command.upper() == "HELP":
+while True:
+    command = input("> ").upper()
+    if command == "HELP":
         print('''Start - to start the car
 Stop - stop the car
 Quit - to exit''')
-
-    elif command.upper() == "START":
+    elif command == "START":
         print("Car started...ready to go! ")
-    elif command.upper() == "STOP":
+    elif command == "STOP":
         print("The car has been stopped ")
-    elif command.upper() == "QUIT":
+    elif command == "QUIT":
         break
+    else:
+        print("Sorry, I don't understand what you mean by that ")
+
