@@ -7,9 +7,9 @@ while command.upper() != "QUIT":
 Stop - stop the car
 Quit - to exit''')
 
-elif command.upper() == "START":
-    print("Car started...ready to go! ")
-elif command.upper() == "STOP":
-    print("The car has been stopped ")
-elif command.upper() == "QUIT"
-    break
+    elif command.upper() == "START":
+        print("Car started...ready to go! ")
+    elif command.upper() == "STOP":
+        print("The car has been stopped ")
+    elif command.upper() == "QUIT":
+        break
